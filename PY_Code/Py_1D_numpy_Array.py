@@ -6,6 +6,8 @@
 Syntax:
 nameOfArray = array([Val_01, Val_02, Val_03 ...Val_n])
 """
+from array import array
+
 from numpy import *
 
 # Create 1D Array - Regular Way

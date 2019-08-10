@@ -1,7 +1,7 @@
-#Print Square Pattern
+# Print Square Pattern
 patternCount = int(input("Enter the Pattern Count:"))
 
-#Square Pattern
+# Square Pattern
 for i in range(patternCount):
     for j in range(patternCount):
         print("#", end="")
@@ -9,17 +9,17 @@ for i in range(patternCount):
 
 print("------------------------------------")
 
-#Right Angle Triangle
+# Right Angle Triangle
 for k in range(patternCount):
-    for l in range(k+1):
+    for l in range(k + 1):
         print("#", end="")
     print()
 
 print("------------------------------------")
 
-#Right Angle Triangle - Inverse
+# Right Angle Triangle - Inverse
 for k in range(patternCount):
-    for l in range(patternCount-k):
+    for l in range(patternCount - k):
         print("#", end="")
     print()
 print("------------------------------------")
@@ -30,4 +30,3 @@ for u in range(patternCount):
         else:
             print("#")
 print()
-
