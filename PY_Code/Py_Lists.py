@@ -187,7 +187,7 @@ print("##############################")
 print("Return the value using Index Range:", subject[2:7])
 print("##############################")
 
-# Nested List
+# Nested Lists
 
 primaryList = [[10, 20, 30, 40, 50], [60, 70, 80, 90, 100]]
 print("Print Entire List:", primaryList)
