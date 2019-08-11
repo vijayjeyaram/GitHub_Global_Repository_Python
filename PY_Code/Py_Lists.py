@@ -167,22 +167,29 @@ print("##############################")
 marks.sort(reverse=True)
 print("[Descending]sort():", marks)
 
-#pop() By Index: Index is not a necessary parameter, if not mentioned takes the last index.
+# pop() By Index: Index is not a necessary parameter, if not mentioned takes the last index.
 print("##############################")
 marks.pop()
 print("pop():", marks)
 
-#del() By Index : Element to be deleted is mentioned using list name and index.
+# del() By Index : Element to be deleted is mentioned using list name and index.
 print("##############################")
 del marks[2]
 print("del():", marks)
 
-#remove() By Value: Element to be deleted is mentioned using list name and element.
+# remove() By Value: Element to be deleted is mentioned using list name and element.
 print("##############################")
 marks.remove(100)
 print("del():", marks)
 
-#Retun the values using index range
+# Return the values using index range
 print("##############################")
 print("Return the value using Index Range:", subject[2:7])
 print("##############################")
+
+# Nested List
+
+primaryList = [[10, 20, 30, 40, 50], [60, 70, 80, 90, 100]]
+print("Print Entire List:", primaryList)
+print("Print First inner List:", primaryList[0])
+print("Print First inner List 3rd value:", primaryList[0][2])
