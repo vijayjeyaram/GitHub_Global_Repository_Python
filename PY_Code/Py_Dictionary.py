@@ -70,9 +70,8 @@ print("##############################")
 #nameOfDictionary["Key"] = "Value"
 studentMarkInfo["Computer"] = 100
 print(studentMarkInfo)
-
-#Removing Items: There are several methods to remove items from a dictionary:
 print("##############################")
+#Removing Items: There are several methods to remove items from a dictionary:
 #Syntax:
 #nameOfDictionary("Key")
 studentMarkInfo.pop("Computer")
@@ -89,3 +88,29 @@ print(myDictionary_01)
 myDict = dict.fromkeys(range(1, 6), "Test")
 print(myDict)
 
+# Definition and Usage
+# The setdefault() method returns the value of the item with the specified key.
+# If the key does not exist, insert the key, with the specified value, see example below
+
+#Syntax:
+#dictionary.setdefault(key_name, value)
+
+studentMarkInfo = \
+    {
+        "Id": 1,
+        "Name": "Vijay",
+        "Tamil": 97,
+        "English": 91,
+        "Maths": 100,
+        "Science": 98,
+        "Social": 99
+    }
+print(studentMarkInfo)
+# Here Science Mark has been existing so its return the value.
+scienceMark = studentMarkInfo.setdefault("Science")
+print(scienceMark)
+
+# Here ComputerScience Mark has NOT existing so its insert the key.
+computerMark = studentMarkInfo.setdefault("Computer")
+print(computerMark)
+print(studentMarkInfo)
