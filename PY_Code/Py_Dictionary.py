@@ -77,3 +77,15 @@ print("##############################")
 #nameOfDictionary("Key")
 studentMarkInfo.pop("Computer")
 print(studentMarkInfo)
+print("##############################")
+#Dynamic Dictionary
+#Syntax:
+#dict.fromkeys(keys, value)
+#From List
+myList = ["Key_01", "Key_02", "Key_03", "Key_04", "Key_05"]
+myDictionary_01 = dict.fromkeys(myList, "Value")
+print(myDictionary_01)
+
+myDict = dict.fromkeys(range(1, 6), "Test")
+print(myDict)
+
