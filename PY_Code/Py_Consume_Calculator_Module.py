@@ -1,4 +1,4 @@
-from PY_Code.Py_Calculator_Module import *
+from Python_Learning_Project.PY_Code.Py_Calculator_Module import *
 
 print("Calculator Module Add", add(5, 5))
 print("Calculator Module Sub", sub(25, 5))
