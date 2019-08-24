@@ -1,6 +1,6 @@
 # Map Function
 """
-The map() function executes a specified function for each item in a iterable.
+The map() function executes a specified function each item in a iterable.
 The item is sent to the function as a parameter.
 
 Syntax:
