@@ -6,12 +6,3 @@ class Cars:
     brandName = None
     modelName = None
     price = 0
-
-
-
-
-
-
-
-
-
